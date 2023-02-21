@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    width: 100%;
+    font-family: Favoritfreshly, sans-serif;
+    font-weight: 400;
+}
+
+/* Pre-nav */
+
+.preNav {
+    height: 33px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
