@@ -604,3 +604,79 @@ body {
   margin-top: -20px;
   margin-bottom: 40px;
 }
+
+  /* Fifth div starts */
+
+.fifthDiv {
+  height: 772px;
+  padding: 64px 32px 0px 32px;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.fifthDiv > div {
+  width: 40%;
+}
+
+#fifthDivImg {
+  width: 57.5%;
+  height: 708px;
+  position: absolute;
+  left: 32px;
+}
+
+#fifthDivImg > img {
+  width: 100%;
+  height: 100%;
+}
+
+.fifthDiv > div > button {
+  padding: 14px 15px;
+  font-size: 1.1em;
+  color: white;
+  background-color: rgb(49, 103, 255);
+  border: 1px solid rgb(49, 103, 255);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  width: 400px;
+}
+
+.fifthDiv > div > button:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+
+#ovarlapDiv1 {
+  position: absolute;
+  top: 117px;
+  right: 84px;
+  z-index: 1;
+  background-color: white;
+  width: 747px;
+  padding: 0px 45px;
+  box-sizing: border-box;
+  height: 481px;
+}
+
+#ovarlapDiv1 > h2 {
+  font-size: 2.9em;
+  margin-top: 22px;
+  margin-bottom: 25px;
+}
+
+#ovarlapDiv1 > input {
+  height: 45px;
+  border-radius: 5px;
+  border: grey solid 1px;
+  width: 570px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 1.1em;
+}
+
+#newId {
+  font-size: 0.87em;
+  margin-top: 35px;
+  letter-spacing: 0.4px;
+}
