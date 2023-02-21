@@ -455,3 +455,89 @@ body {
     margin-top: -40px;
     margin-bottom: 30px;
   }
+
+  #planBtn {
+    padding: 14px 15px;
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(49, 103, 255);
+    border: 1px solid rgb(49, 103, 255);
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+  
+  #planBtn:hover {
+    transform: translateX(2px) translateY(-2px);
+    transition: transform 0.4s;
+  }
+  
+  /* Ratings div */
+  
+  .ratingsDiv {
+    height: 483px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(255, 253, 247);
+    padding: 0px 32px;
+    border: 1px solid rgb(255, 253, 247);
+  }
+  
+  .carousel {
+    height: 235px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #carouselBox {
+    display: flex;
+  }
+  
+  #carouselBox > div {
+    width: 382px;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    margin: 0px 16px;
+  }
+  
+  .carousel > div > img {
+    width: 30px;
+  }
+  
+  #stars {
+    width: 167px;
+    margin-bottom: 13px;
+  }
+  
+  #imageDivLeft {
+    width: 80px;
+    padding-top: 100px;
+    cursor: pointer;
+  }
+  
+  #imageDivRight {
+    width: 80px;
+    padding-top: 100px;
+    cursor: pointer;
+  }
+  
+  #carouselBox > div > h4 {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.3px;
+    margin-bottom: -5px;
+  }
+  
+  #carouselBox > div > p {
+    font-size: 0.9em;
+    color: rgb(51, 51, 51);
+    line-height: 1.4em;
+  }
+  
+  #carouselBox > div > h5 {
+    font-size: 0.95em;
+    color: rgb(51, 51, 51);
+    font-weight: 400;
+    margin-top: -5px;
+    letter-spacing: 0.4px;
+  }
