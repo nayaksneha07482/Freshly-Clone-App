@@ -302,3 +302,149 @@ body {
     padding: 0px 35px 10px;
     box-sizing: border-box;
   }
+
+  #centerCard > h2 {
+    margin-top: 12px;
+    color: rgb(51, 51, 51);
+  }
+  
+  #centerCard > p {
+    font-size: 1.1em;
+    margin-top: -30px;
+    letter-spacing: 0.3px;
+    color: rgb(51, 51, 51);
+  }
+  
+  #cardBtn {
+    padding: 13px 0px;
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(49, 103, 255);
+    border: 1px solid rgb(49, 103, 255);
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+  
+  #cardBtn:hover {
+    transform: translateX(2px) translateY(-2px);
+    transition: transform 0.4s;
+  }
+  
+  #cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  #cardImage {
+    width: 213px;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+  
+  #cardImage:hover {
+    transform: scale(1.07);
+    transition: transform 0.8s ease-out;
+  }
+  
+  #cardsContainer > div {
+    cursor: pointer;
+  }
+  
+  #cardsContainer > div > div {
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  #cardHeading {
+    font-size: 0.93em;
+    letter-spacing: 0.3px;
+    margin-top: 13px;
+    color: rgb(51, 51, 51);
+  }
+  
+  #cardHeading:hover {
+    color: rgb(53, 116, 113);
+    transition: color 0.5s;
+  }
+  
+  #cardsContainer > div > p {
+    color: rgb(53, 116, 113);
+    font-size: 0.9em;
+    padding-right: 20px;
+    margin-top: -13px;
+    line-height: 1.4em;
+  }
+  
+  /* Plans Div */
+  
+  .mealPlan {
+    height: 711px;
+    background-color: rgb(255, 253, 247);
+    text-align: center;
+    padding: 63px 0px 0px;
+    box-sizing: border-box;
+  }
+  
+  #mealHeading {
+    font-size: 2.3em;
+    margin-top: 2px;
+  }
+  
+  .mealPlan > p {
+    font-size: 13.9px;
+    margin-top: -35px;
+    padding: 0px 410px;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+  }
+  
+  #span1 {
+    color: rgb(53, 116, 113);
+    font-weight: bold;
+  }
+  
+  #span2 {
+    font-weight: bold;
+  }
+  
+  .planContainer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    height: 212px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  
+  .planContainer > div > img {
+    width: 224px;
+  }
+  
+  .planContainer > div > p {
+    background-color: rgb(133, 229, 198);
+    font-size: 0.85em;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    width: 113px;
+    border-radius: 50px;
+    padding: 3px 0px 1px;
+    position: absolute;
+    top: -6px;
+    left: 8px;
+  }
+  
+  .planContainer > div {
+    position: relative;
+  }
+  
+  .planContainer > div > h4 {
+    color: rgb(53, 116, 113);
+    font-size: 1.7em;
+    margin-top: 12px;
+  }
