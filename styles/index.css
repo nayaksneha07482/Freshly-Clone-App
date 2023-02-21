@@ -754,3 +754,21 @@ body {
 #blackImg {
   width: 120px;
 }
+
+  /* Help icon starts */
+
+.helpIcon {
+  position: fixed;
+  bottom: 3%;
+  right: 1.6%;
+  width: 42px;
+  border-radius: 50%;
+  height: 42px;
+  box-shadow: rgb(0 0 0 / 10%) -1px 0px 0px, rgb(0 0 0 / 15%) -3px 0px 9px;
+}
+
+.helpIcon > img {
+  border-radius: 50%;
+  width: 100%;
+  cursor: pointer;
+}
