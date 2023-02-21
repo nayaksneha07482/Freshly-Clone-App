@@ -13,3 +13,292 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.leftDiv {
+    width: 100px;
+    padding: 7px 2px;
+    border-bottom: 2px solid rgb(3, 81, 78);
+    margin-right: -8px;
+  }
+  
+  .rightDiv {
+    width: 150px;
+    padding: 7px 2px;
+  }
+  
+  #icon1 {
+    height: 11px;
+  }
+  
+  #icon2 {
+    filter: grayscale(100%);
+  }
+  
+  #icon2:hover {
+    filter: none;
+    transition: filter 0.3s;
+  }
+  
+  /* Navbar */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px 20px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 253, 247);
+    z-index: 2;
+  }
+  
+  #navImg {
+    height: 24px;
+    margin-top: -1px;
+    padding-left: 1px;
+  }
+  
+  #navLinks {
+    display: flex;
+    margin-left: -25px;
+  }
+  
+  #navLinkBox {
+    text-decoration: none;
+    padding: 0px 18px;
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  
+  #navLinkBox:hover {
+    color: rgb(49, 103, 255);
+  }
+  
+  #setup {
+    display: flex;
+  }
+  
+  #login {
+    text-decoration: none;
+    font-size: 0.8em;
+    margin-right: 17px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  #signUpBtn {
+    background-color: rgb(49, 103, 255);
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgb(49, 103, 255);
+    padding: 7px 9px;
+    font-size: 1em;
+    margin-top: -8px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+  
+  #signUpBtn:hover {
+    transform: translateX(2px) translateY(-2px);
+    transition: transform 0.4s;
+  }
+  
+  /* First div */
+  
+  #firstDiv {
+    display: flex;
+    width: 100%;
+    height: 700px;
+  }
+  
+  .firstDivLeft {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(254, 249, 234);
+  }
+  
+  h1 {
+    font-size: 3.9em;
+    color: rgb(51, 51, 51);
+    padding: 83px 10px 80px 65px;
+  }
+  
+  .firstDivLeft > p {
+    padding-left: 65px;
+    margin-top: -60px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    font-size: 1.2em;
+  }
+  
+  form {
+    display: flex;
+    margin-left: 66px;
+    margin-top: -9px;
+  }
+  
+  label {
+    font-size: 0.85em;
+    font-weight: bold;
+  }
+  
+  #leftInput {
+    margin: 8px 8px 8px 0px;
+    height: 40px;
+    width: 295px;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    box-shadow: 0px 1px rgb(206, 205, 205);
+    color: rgb(83, 83, 83);
+    padding-left: 15px;
+  }
+  
+  #rightInput {
+    margin: 8px 6px 0px 0px;
+    height: 40px;
+    width: 125px;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    box-shadow: 0px 1px rgb(206, 205, 205);
+    color: rgb(83, 83, 83);
+    padding-left: 12px;
+  }
+  
+  #submitBtn {
+    padding: 9px 16px;
+    font-size: 1.1em;
+    margin: 25px 0px 0px 10px;
+    color: white;
+    background-color: rgb(49, 103, 255);
+    border: 1px solid rgb(49, 103, 255);
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+  
+  #submitBtn:hover {
+    transform: translateX(2px) translateY(-2px);
+    transition: transform 0.4s;
+  }
+  
+  #firstDivRight {
+    width: 50%;
+    position: relative;
+  }
+  
+  #firstDivImg {
+    width: 100%;
+    background-size: cover;
+    height: 493px;
+    object-fit: cover;
+    height: 100%;
+    object-position: -160px;
+  }
+  
+  #imgBox {
+    position: absolute;
+    bottom: 180px;
+    right: 35px;
+    text-align: right;
+  }
+  
+  #imgPara1 {
+    color: white;
+    font-size: 1.45em;
+    font-weight: bold;
+    margin-bottom: -6px;
+  }
+  
+  #imgPara2 {
+    color: white;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+  }
+  
+  #discBtn {
+    padding: 9px 16px 7px 14px;
+    font-size: 0.9em;
+    color: white;
+    background-color: rgb(49, 103, 255);
+    border: 1px solid rgb(49, 103, 255);
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+  
+  #discBtn:hover {
+    transform: translateX(2px) translateY(-2px);
+    transition: transform 0.4s;
+  }
+  
+  #firstDivP {
+    padding-left: 65px;
+    font-size: 0.85em;
+    margin-top: 25px;
+    letter-spacing: 0.5px;
+    color: rgb(51, 51, 51);
+  }
+  
+  #linkColor {
+    color: rgb(49, 103, 255);
+  }
+  
+  /* Second div */
+  
+  .secondDiv {
+    height: 440px;
+    text-align: center;
+    background-color: rgb(255, 253, 247);
+    border: 1px solid rgb(255, 253, 247);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    padding: 0px 30px;
+  }
+  
+  h2 {
+    font-size: 3em;
+    color: rgb(51, 51, 51);
+    padding: 17px 0px 0px;
+  }
+  
+  #gif {
+    width: 160px;
+    height: 145px;
+    object-fit: cover;
+  }
+  
+  h3 {
+    font-size: 1.4em;
+    color: rgb(51, 51, 51);
+  }
+  
+  .container > div > p {
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+    color: rgb(51, 51, 51);
+    margin-top: -10px;
+  }
+  
+  /* Third Div */
+  
+  .thirdDiv {
+    height: 1045px;
+    background-image: url(https://assets-global.website-files.com/5d03b4e130118314af624b20/5d94e04ff2b857688f7138b6_home_image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+    position: relative;
+  }
+  
+  #centerCard {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 740px;
+    height: 917px;
+    top: 63px;
+    left: 390px;
+    padding: 0px 35px 10px;
+    box-sizing: border-box;
+  }
