@@ -107,3 +107,135 @@ planCards.map(item => {
     box.append(image, saving, heading);
     document.querySelector(".planContainer").append(box);
 });
+
+// Ratings div cards and carousel
+
+
+var carouselCards = [
+    [
+        {
+            stars: "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+            heading: "Freshly has changed our lives!",
+            review: "With Freshly, we dont have to go anywhere or wait for delivery, and our monthly food bill has been cut nearly in half. We love it.",
+            name: "Dave",
+        },
+        {
+            stars: "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+            heading: "10 stars! Awesome! Love it!",
+            review: "We love Freshly because it takes two minutes to prepare, the food is great and we don't have to spend time cleaning up.",
+            name: "Sheri",
+        },
+        {
+            stars: "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+            heading: "One of the easiest decisions I've made",
+            review: "With Freshly, I don't have to think about what I'm going to eat for lunch each day and feel good knowing that I'm eating a healthy meal. I love the convenience!",
+            name: "Cindi",
+        }
+    ],
+    [
+        {
+            stars: "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+            heading: "Amazingly delicious and convenient!",
+            review: "I love that I have found freshly and that it allows me to try new things and allows me to eat healthy while remaining affordable!",
+            name: "Jessica Wilson",
+        },
+        {
+            stars: "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+            heading: "Convenience, taste, variety",
+            review: "Been a customer for more than a year now, and love it. Customer service is particularly outstanding — whenever there's been a problem.",
+            name: "Jeffrey",
+        },
+        {
+            stars: "https://assets-global.website-files.com/5d03b4e130118314af624b20/5d96607e740addd99bf570ae_star.svg",
+            heading: "Delicious! So yummy!",
+            review: "The convenience of a well prepared, healthy, flavorful meal with no shopping, preparing, or clean up is simply amazing.",
+            name: "Kristie Geiges",
+        }
+    ]
+];
+
+var objNumber = 0;
+var currentObj = carouselCards[objNumber];
+makeCarousel();
+
+function makeCarousel() {
+    document.querySelector("#carouselBox").innerHTML = "";
+
+    currentObj.map(item => {
+        var box = document.createElement("div");
+
+        var image = document.createElement("img");
+        image.setAttribute("src", item.stars);
+        image.setAttribute("id", "stars");
+
+        var heading = document.createElement("h4");
+        heading.textContent = item.heading;
+
+        var review = document.createElement("p");
+        review.textContent = item.review;
+
+        var names = document.createElement("h5");
+        names.textContent = item.name;
+
+        box.append(image, heading, review, names);
+        document.querySelector("#carouselBox").append(box);
+    });
+}
+
+document.querySelector("#imageDivRight").addEventListener("click", () => {
+    objNumber++;
+    if (objNumber > carouselCards.length - 1) {
+        objNumber = 0
+    }
+    currentObj = carouselCards[objNumber];
+    makeCarousel(currentObj);
+});
+
+document.querySelector("#imageDivLeft").addEventListener("click", () => {
+    objNumber--;
+    if (objNumber < 0) {
+        objNumber = carouselCards.length - 1
+    }
+    currentObj = carouselCards[objNumber];
+    makeCarousel(currentObj);
+});
+
+document.querySelector("#signUpBtn").addEventListener("click", () => {
+    window.location.href = "signUp.html";
+});
+
+// document.querySelector("#submitBtn").addEventListener("click", () => {
+//     window.location.href = "plan.html";
+// });
+
+document.querySelector("#cardBtn").addEventListener("click", () => {
+    window.location.href = "plans&Menu.html";
+});
+
+document.querySelector("#planBtn").addEventListener("click", () => {
+    window.location.href = "signUp.html";
+});
+
+document.querySelector("#getStartedBtn").addEventListener("click", () => {
+    var input1 = document.querySelector("#inp1").value;
+    var input2 = document.querySelector("#inp2").value;
+    if (input1 == "" || input2 == "") {
+        alert("Please fill out the fields properly!");
+    }
+    else {
+        window.location.href = "plan.html";
+    }
+});
+
+document.querySelector("form").addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    var input3 = document.querySelector("#leftInput").value;
+    var input4 = document.querySelector("#rightInput").value;
+    if (input3 == "" || input4 == "") {
+        alert("Please fill out the fields properly!");
+    }
+    else {
+        window.location.href = "plan.html";
+    }
+});
