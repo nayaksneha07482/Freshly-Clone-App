@@ -139,3 +139,260 @@ label {
   border-radius: 30px 30px 0px 0px;
   background-color: white;
 }
+
+   /* Cards in the container Box */
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(255, 253, 247);
+  box-sizing: border-box;
+  width: 100.1%;
+  padding: 17px 17px;
+}
+
+#cardBox {
+  width: 290px;
+  height: 306px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+#imageDiv {
+  width: 273px;
+  height: 190px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+#imageDiv > img {
+  width: 130%;
+  height: 130%;
+  object-position: -38px -25px;
+  border-radius: 15px;
+}
+
+#imageDiv > img:hover {
+  transform: scale(1.07);
+  transition: 0.3s;
+}
+
+#midDiv {
+  width: 99.5%;
+  height: 70px;
+}
+
+#midDiv > h6 {
+  font-size: 0.9em;
+  margin-top: 15px;
+  padding-right: 20px;
+  line-height: 1.4em;
+  letter-spacing: 0.4px;
+}
+
+#midDiv > p {
+  font-size: 0.85em;
+  margin-top: -30px;
+  padding-right: 20px;
+  line-height: 1.4em;
+  color: rgb(53, 116, 113);
+}
+
+#bottomDiv {
+  box-sizing: border-box;
+  font-size: 0.8em;
+  margin-top: -20px;
+  text-align: right;
+}
+
+#bottomDiv > button {
+  width: 40px;
+  border: 1px solid rgb(42, 109, 255);
+  background-color: rgb(42, 109, 255);
+  color: rgb(221, 221, 221);
+  font-size: 2.1em;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+
+#bottomDiv > button:hover {
+  border: 1px solid rgb(39, 90, 201);
+  background-color: rgb(39, 90, 201);
+  transition: 0.3s;
+}
+
+/* Added items to cart */
+
+#addedCardsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#addedCards {
+  width: 308px;
+  height: 96px;
+  margin: auto;
+  margin-top: 9px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 3px rgb(179, 179, 179);
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#addedCards:hover {
+  background-color: rgb(245, 245, 245);
+  transition: 0.3s;
+}
+
+#lastImageDiv {
+  width: 96px;
+  padding: 16px 0px 16px 16px;
+  box-sizing: border-box;
+}
+
+#lastImageDiv > img {
+  width: 64px;
+}
+
+#middleDiv {
+  font-size: 13px;
+  font-weight: bold;
+  width: 150px;
+  padding: 36px 2px;
+  letter-spacing: 0.2px;
+}
+
+#lastDiv {
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+#lastDiv1 {
+  font-size: 2.2em;
+  text-align: center;
+  color: rgb(42, 109, 255);
+}
+
+#lastDiv2 {
+  font-size: 2.6em;
+  text-align: center;
+  color: rgb(154, 154, 156);
+}
+
+/* Total card */
+
+#addedCardsTotal {
+  text-align: center;
+  font-size: 0.9em;
+  color: rgb(85, 84, 84);
+  margin-top: 7px;
+  width: 323px;
+  height: 122px;
+  box-sizing: border-box;
+}
+
+#sum {
+  font-size: 0.95em;
+  text-align: left;
+  color: black;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#lines {
+  display: flex;
+  justify-content: space-between;
+  width: 319px;
+  color: black;
+}
+
+#lines > p {
+  margin: 0px;
+  padding: 5px 10px;
+  font-size: 0.95em;
+}
+
+.line2 {
+  font-weight: bold;
+}
+
+#tax {
+  color: black;
+  font-size: 0.8em;
+}
+
+/* Fixed div lower part */
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 8px 18px 15px;
+}
+
+#cartIcon > img {
+  width: 44px;
+  object-position: 6px 2px;
+}
+
+#cartIconDiv {
+  display: flex;
+  border: 2px solid rgb(197, 197, 197);
+  width: 80px;
+  height: 44px;
+  border-radius: 30px;
+  overflow: hidden;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+#mealNum2 {
+  margin-left: -25px;
+  margin-top: 12px;
+  color: red;
+}
+
+#sub {
+  font-weight: bold;
+  line-height: 0.8em;
+  font-size: 0.95em;
+}
+
+#totalSum3 {
+  color: green;
+  margin-left: 5px;
+}
+
+#lastBtn {
+  text-align: center;
+  margin: 0px 20px;
+}
+
+#lastBtn > button {
+  height: 40px;
+  width: 285px;
+  border: 1px solid rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  font-size: 1.1em;
+  color: rgb(205, 205, 205);
+  cursor: pointer;
+}
+
+#dateJs1{
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#dateJs{
+  font-size: 12px;
+  margin-right: 10px;
+}
