@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshly - Join Now - Checkout</title>
+    <link rel="stylesheet" href="styles/checkout.css">
+    <link rel="shortcut icon"
+        href="https://assets-global.website-files.com/5d03b4e130118314af624b20/5ff746968ef71d4c780bf4a6_favicon_core.png"
+        type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="navbar">
+        <div id="navImg">
+            <a href="index.html"><img id="navImg"
+                    src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg">
+            </a>
+        </div>
+        <div id="navLinks">
+            <p><a href="plan.html" id="plan">Plans</a> <span>></span><a href="day.html" id="plan">Day</a>
+                <span>></span><a href="cart.html" id="plan">Meals</a> <span>></span><span id="day">Checkout</span>
+            </p>
+        </div>
+        <div id="setup">
+            <div id="sign">
+                ?
+            </div>
+            <div id="support">
+                Customer Support
+            </div>
+        </div>
+    </div>
+
+    <!-- Container -->
+
+    <div class="container">
+        <div class="leftContainer">
+            <h2>Checkout</h2>
+            <div id="userInfo">
+                <h3>Delivery Address</h3>
+                <form>
+                    <div id="flex">
+                        <label id="fName">First Name</label>
+                        <input type="text">
+                        <label id="lName">Last Name</label>
+                        <input type="text">
+                    </div>
+                    <label>Full Name for Delivery Address</label>
+                    <input type="text">
+                    <label id="address">Address Line 1</label>
+                    <input type="text">
+                    <label>Address Line 2 (optional)</label>
+                    <input type="text">
+                    <div id="flex">
+                        <label id="city">City</label>
+                        <input id="smallLabel" type="text">
+                        <label>State</label>
+                        <input id="smallLabel" type="text">
+                        <label>Zip</label>
+                        <input class="zipCode" id="smallLabel" type="text">
+                    </div>
+                    <label>Phone</label>
+                    <input type="text">
+                    <label>Email (We require your email to send you receipts and order updates)</label>
+                    <input id="email" type="email">
+                    <div id="flex">
+                        <p>Today's Total</p>
+                        <p class="sumTotalJs"></p>
+                    </div>
+                    <input type="submit" id="nextBtn" value="Next"></input>
+                </form>
+            </div>
+        </div>
+        <div class="rightContainer">
+            <h2>Order Summary</h2>
+            <div id="orderInfo">
+                <a href="">+ Add Promo Code</a>
+                <div id="flex1">
+                    <p> Delivery Date
+                    </p>
+                    <p class="dateJs" id="bold"></p>
+                </div>
+                <div id="flex1">
+                    <p><span id="mealNum">5</span> Meals
+                    </p>
+                    <p class="totalJs" id="bold"></p>
+                </div>
+                <div id="flex1">
+                    <p>Shipping
+                    </p>
+                    <p id="bold">$6.99</p>
+                </div>
+                <div id="flex1">
+                    <p id="bold">Total
+                    </p>
+                    <p class="sumTotalJs1" id="bold"></p>
+                </div>
+            </div>
+            <div class="mealCards">
+                <h2>My Meals</h2>
+                <div id="cardsContainer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Common Questions -->
+
+    <div id="picture">
+        <img src="Pictures/commonQuestions.png">
+    </div>
+
+</body>
+
+<script src="scripts/checkout.js"></script>
+
+</html>
