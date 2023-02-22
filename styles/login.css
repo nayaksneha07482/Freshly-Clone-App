@@ -1,0 +1,247 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: Favoritfreshly, sans-serif;
+  font-weight: 400;
+  background-color: rgb(255, 253, 247);
+}
+
+/* Pre-nav */
+
+.preNav {
+  height: 33px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.leftDiv {
+  width: 100px;
+  padding: 7px 2px;
+  border-bottom: 2px solid rgb(3, 81, 78);
+  margin-right: -8px;
+}
+
+.rightDiv {
+  width: 150px;
+  padding: 7px 2px;
+}
+
+#icon1 {
+  height: 11px;
+}
+
+#icon2{
+  filter: grayscale(100%);
+}
+
+#icon2:hover{
+  filter: none;
+  transition: filter .3s;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(222,226,230);
+  z-index: 2;
+}
+
+#navImg {
+  height: 24px;
+  margin-top: -1px;
+  padding-left: 1px;
+}
+
+#navLinks {
+  display: flex;
+  margin-left: -25px;
+}
+
+#navLinkBox {
+  text-decoration: none;
+  padding: 0px 18px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#navLinkBox:hover {
+  color: rgb(49, 103, 255);
+}
+
+#setup {
+  display: flex;
+}
+
+#login {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-right: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+#signUpBtn {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgb(49, 103, 255);
+  padding: 7px 9px;
+  font-size: 1em;
+  margin-top: -8px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+#signUpBtn:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+
+/* Login Container */
+
+.container {
+  width: 35%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container > h2 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#labels {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#email,
+#password {
+  height: 35px;
+  margin-top: -5px;
+  color: rgb(122, 124, 122);
+  padding-left: 10px;
+  letter-spacing: 0.5px;
+  font-size: 0.9em;
+}
+
+#loginBtn {
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border: 1px solid rgb(49, 103, 255);
+  padding: 9px 9px;
+  background-color: rgb(49, 103, 255);
+}
+
+#loginBtn:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+
+#containerBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+#containerBottom > p > a {
+  color: rgb(49, 103, 255);
+}
+
+#containerBottom > p {
+  font-size: 0.9em;
+}
+
+/* Footer */
+
+.lastDiv {
+  height: 388px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 64px 213px;
+  justify-content: center;
+  border-top: 1px solid rgb(222,226,230);
+  background-color: white;
+}
+
+.lastDiv > div {
+  width: 273px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 0.78em;
+  color: rgb(104, 103, 103);
+}
+
+.lastDiv > div > a {
+  color: rgb(104, 103, 103);
+  text-decoration: none;
+}
+
+.lastDiv > div > p {
+  font-size: 1.2em;
+  color: black;
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+#div1 {
+  padding: 0px 79px;
+}
+
+#div2 {
+  padding: 0px 99px;
+}
+
+#div3 {
+  padding: 0px 95px;
+}
+
+#div4 {
+  padding: 0px 69px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#lastImg {
+  width: 16px;
+  margin-right: 14px;
+}
+
+#blackImg {
+  width: 120px;
+}
+
+/* Help icon starts */
+
+.helpIcon {
+  position: fixed;
+  bottom: 3%;
+  right: 1.6%;
+  width: 42px;
+  border-radius: 50%;
+  height: 42px;
+  box-shadow: rgb(0 0 0 / 10%) -1px 0px 0px, rgb(0 0 0 / 15%) -3px 0px 9px;
+}
+
+.helpIcon > img {
+  border-radius: 50%;
+  width: 100%;
+  cursor: pointer;
+}
