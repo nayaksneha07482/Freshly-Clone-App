@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshly - Join Now - Meals</title>
+    <link rel="shortcut icon"
+        href="https://assets-global.website-files.com/5d03b4e130118314af624b20/5ff746968ef71d4c780bf4a6_favicon_core.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="styles/cart.css">
+</head>
+
+<body>
+
+    <!-- Left container -->
+
+    <div id="cardsDiv">
+        <div id="topDiv">
+            <a href="day.html"><img id="arrow" src="Pictures/leftCart.png">Back</a>
+            <p class="date1"><span id="dateJs1"></span><img id="arrow" src="Pictures/downCart.png"></p>
+            <a href="">Customer Support</a>
+        </div>
+        <div class="sortDiv">
+            <p>Choose Meals</p>
+            <div id="sort">
+                <label>Sort by name:</label>
+                <select id="nameSelect">
+                    <option value="">Select order</option>
+                    <option value="a-z">A-Z</option>
+                    <option value="z-a">Z-A</option>
+                </select>
+                <label>Filter by type:</label>
+                <select id="filterSelect">
+                    <option value="">Select food type</option>
+                    <option value="Freshly Fit">Freshly Fit</option>
+                    <option value="Signature Collection">Signature Collection</option>
+                    <option value="Proteins">Proteins</option>
+                    <option value="Purely Plant">Purely Plant</option>
+                </select>
+            </div>
+        </div>
+        <div class="cardsContainer">
+
+        </div>
+    </div>
+
+    <!-- Right conatainer or fixed container -->
+
+    <div id="fixedDiv">
+        <div class="upperDiv">
+            <p id="date2">My delivery for: <span id="dateJs"></span></p>
+            <p id="clearBtn">Clear all</p>
+        </div>
+        <div class="middleDiv">
+            <div id="addedCardsContainer">
+
+            </div>
+            <div id="addedCardsTotal">
+                <div>
+                    <p id="sum">Order Summary</p>
+                    <div id="lines">
+                        <p><span id="mealNum"></span> meals</p>
+                        <p id="totalSum1"></p>
+                    </div>
+                    <div class="line2" id="lines">
+                        <p>Subtotal</p>
+                        <p id="totalSum2"></p>
+                    </div>
+                    <p id="tax">Tax and shipping added at checkout</p>
+                </div>
+            </div>
+        </div>
+        <div class="lowerDiv"">
+            <div class=" upper">
+            <div>
+                <p id="sub">Subtotal <span id="totalSum3"></span></p>
+            </div>
+            <div id="cartIconDiv">
+                <div id="cartIcon">
+                    <img src="Pictures/cartIcon.jpg">
+                </div>
+                <div>
+                    <p id="mealNum2"></p>
+                </div>
+            </div>
+        </div>
+        <div id="lastBtn">
+            <button id="btnnn">Add <span id="mealLeft"></span> To Continue</button>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="scripts/cart.js">
+</script>
+
+</html>
