@@ -1,0 +1,141 @@
+  body {
+  width: 100%;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+#cardsDiv {
+  width: 1192px;
+  box-sizing: border-box;
+}
+
+#fixedDiv {
+  border: rgb(217, 217, 217) 1px solid;
+  width: 326px;
+  height: 745px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Top Bar */
+
+#topDiv {
+  height: 50px;
+  display: flex;
+  border: rgb(245, 245, 245) 1px solid;
+  justify-content: space-between;
+  padding: 13px 16px;
+  position: sticky;
+  box-sizing: border-box;
+  top: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+#topDiv > a {
+  color: rgb(42, 109, 255);
+  letter-spacing: 0.5px;
+}
+
+#topDiv > p {
+  margin-top: 1px;
+}
+
+#arrow {
+  width: 12px;
+}
+
+/* Sort Bar */
+
+.sortDiv {
+  height: 55px;
+  display: flex;
+  border: rgb(248, 243, 226) 1px solid;
+  justify-content: space-between;
+  padding: 11px 16px;
+  box-sizing: border-box;
+  background-color: rgb(253, 251, 244);
+  position: sticky;
+  top: 50px;
+  width: 100.1%;
+  z-index: 1;
+}
+
+.sortDiv > p {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 9px;
+}
+
+select {
+  height: 30px;
+  border: 1px solid rgb(243, 236, 211);
+  border-radius: 8px;
+  color: rgb(228, 192, 62);
+  cursor: pointer;
+}
+
+label {
+  margin-left: 20px;
+  font-size: 0.9em;
+  margin-right: 5px;
+}
+
+.date1 {
+  font-weight: bold;
+}
+
+.upperDiv {
+  height: 50px;
+  border: rgb(224, 224, 224) 1px solid;
+  margin: 0px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+/* Fixed right side */
+
+#date2 {
+  width: 75%;
+  height: 100%;
+  margin: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 0.85em;
+}
+
+#dateJs {
+  font-weight: bold;
+}
+
+#clearBtn {
+  height: 100%;
+  margin: 0px;
+  width: 23%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 15px 0px;
+  text-decoration: underline;
+  color: rgb(42, 109, 255);
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+.middleDiv {
+  height: 513px;
+  overflow: hidden;
+}
+
+.lowerDiv {
+  border: 1px solid rgb(226, 226, 226);
+  height: 182px;
+  border-radius: 30px 30px 0px 0px;
+  background-color: white;
+}
