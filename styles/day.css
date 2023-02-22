@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: rgb(255, 253, 247);
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 90px 15px 75px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  height: 64px;
+  z-index: 1;
+}
+
+#navImg {
+  height: 27px;
+  width: 116px;
+  margin-top: 2px;
+}
+
+#navLinks {
+  margin-top: -2px;
+  width: 40%;
+  text-align: center;
+  color: rgb(208, 208, 208);
+  font-size: 0.85em;
+  font-weight: 550;
+  margin-left: 35px;
+}
+
+#setup {
+  color: rgb(42, 109, 255);
+  display: flex;
+}
+
+#sign {
+  border: 2px rgb(64, 121, 245) solid;
+  margin-top: 5px;
+  margin-right: 7px;
+  height: 21px;
+  width: 21px;
+  padding-left: 4px;
+  padding-top: 1px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#support {
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+span {
+  padding: 0px 14px;
+}
+
+#plan {
+  color: rgb(42, 109, 255);
+}
+
+#day {
+  color: black;
+  margin: 0px -10px;
+}
+
+/* Date container */
+
+#dateContainer {
+  width: 100%;
+  box-sizing: border-box;
+  background-position: 0px;
+  margin-bottom: 35px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+headingText {
+  font-size: 48px;
+  color: rgb(48, 48, 48);
+  margin-bottom: 78px;
+}
+
+#dateBox {
+  width: 440px;
+  height: 273px;
+  overflow-y: scroll;
+  margin: auto;
+}
+
+#dateBox > div {
+  border: 1px solid rgb(139, 139, 139);
+  font-size: 16px;
+  padding: 14px 10px;
+  margin: 0px 8px -1px 0px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  cursor: pointer;
+}
+
+#dateBox > div > span {
+  font-weight: bold;
+}
+
+#dateBox > div:hover {
+  transform: translateX(5px);
+  transition: 0.3s;
+}
+
+.scrollText {
+  font-size: 12px;
+  height: 20px;
+  margin-top: 20px;
+  letter-spacing: 0.3px;
+  color: rgb(70, 70, 70);
+  margin-bottom: 20px;
+}
+
+#btn {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  border: 1px solid rgb(49, 103, 255);
+  font-size: 1.2em;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  width: 420px;
+  height: 48px;
+  padding-right: 15px;
+}
+
+#deliveryText {
+  font-size: 12.5px;
+  height: 16.8px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  color: rgb(66, 66, 66);
+}
+
+#date {
+  margin-left: -10px;
+  font-weight: bold;
+}
+
+hr {
+  width: 90%;
+  border-top: 1px solid rgb(231, 229, 229);
+}
+
+
+/* Common questions */
+
+#image {
+  text-align: center;
+  margin-left: 55px;
+}
