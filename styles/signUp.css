@@ -1,0 +1,161 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: rgb(255, 253, 247);
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 90px 15px 75px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  height: 64px;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+#navImg {
+  height: 27px;
+  width: 116px;
+  margin-top: 2px;
+}
+
+#navLinks {
+  margin-top: -2px;
+  width: 40%;
+  text-align: center;
+  color: rgb(208, 208, 208);
+  font-size: 0.85em;
+  font-weight: 550;
+  margin-left: 35px;
+}
+
+#setup {
+  color: rgb(42, 109, 255);
+  display: flex;
+}
+
+#sign {
+  border: 2px rgb(64, 121, 245) solid;
+  margin-top: 5px;
+  margin-right: 7px;
+  height: 21px;
+  width: 21px;
+  padding-left: 4px;
+  padding-top: 1px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#support {
+  text-decoration: underline;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+span {
+  padding: 0px 14px;
+}
+
+/* SignUp container */
+
+#signUpContainer {
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
+  height: 566px;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: 0px;
+  margin-bottom: 35px;
+  padding: 85px 0px;
+}
+
+#signUpDiv {
+  width: 45%;
+  margin: auto;
+  padding: 20px 10px 20px 35px;
+  background-color: rgb(255, 253, 247, 0.82);
+}
+
+#heading {
+  width: 100%;
+  margin: auto;
+}
+
+#heading > h1 {
+  font-size: 3em;
+  color: rgb(48, 48, 48);
+}
+
+#heading > h2 {
+  font-size: 1.8em;
+  color: rgb(48, 48, 48);
+  margin-top: -7px;
+  margin-bottom: 30px;
+}
+
+#signUpForm {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+input {
+  height: 42px;
+  width: 45%;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 15px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+#zipCode {
+  width: 20%;
+}
+
+#btn {
+  background-color: rgb(49, 103, 255);
+  border: 1px solid rgb(49, 103, 255);
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  width: 21%;
+  height: 48px;
+  padding-right: 15px;
+  border-radius: 0px;
+}
+
+#btn:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+
+#bottomText {
+  font-size: 13px;
+  margin-top: 32px;
+}
+
+#bottomText > p > a {
+  color: rgb(49, 103, 255);
+}
+
+/* Common Questions */
+
+
+#picture {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
