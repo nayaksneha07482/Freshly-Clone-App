@@ -1,0 +1,186 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: rgb(255, 253, 247);
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 90px 15px 75px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  height: 64px;
+  z-index: 1;
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+#navImg {
+  height: 27px;
+  width: 116px;
+  margin-top: 2px;
+}
+
+#navLinks {
+  margin-top: -2px;
+  width: 40%;
+  text-align: center;
+  color: rgb(208, 208, 208);
+  font-size: 0.85em;
+  font-weight: 550;
+  margin-left: 35px;
+}
+
+#setup {
+  color: rgb(42, 109, 255);
+  display: flex;
+}
+
+#sign {
+  border: 2px rgb(64, 121, 245) solid;
+  margin-top: 5px;
+  margin-right: 7px;
+  height: 21px;
+  width: 21px;
+  padding-left: 4px;
+  padding-top: 1px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#support {
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+span {
+  padding: 0px 14px;
+}
+
+#plan {
+  color: black;
+}
+
+/* Plans Div */
+
+.plansContainer {
+  height: 500px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#mealHeading {
+  font-size: 3em;
+  color: rgb(48, 48, 48);
+}
+
+#mealPlan > p {
+  font-size: 13.9px;
+  margin-top: -50px;
+  padding: 0px 400px;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+#span1 {
+  color: rgb(53, 116, 113);
+  font-weight: bold;
+  margin: 0px -30px 0px -13px;
+}
+
+#span2 {
+  font-weight: bold;
+  margin-right: -11px;
+}
+
+.planTable{
+  margin-bottom: -90px;
+}
+
+#row1 {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  margin-top: -1px;
+}
+
+#row2 {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(2, 90px);
+  margin-top: -1px;
+}
+
+#column {
+  border: rgb(233, 233, 233) 1px solid;
+  font-size: 0.9em;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 20px 0px 10px;
+  cursor: pointer;
+}
+
+#row1 > #column > p {
+  font-size: 0.85em;
+  font-weight: 400;
+  color: rgb(59, 116, 113);
+  letter-spacing: -0.2px;
+}
+
+
+#row2 > div {
+  color: rgb(219, 219, 219);
+  font-size: 1em;
+  /* text-decoration: line-through; */
+}
+
+#row2 > #column > p {
+  font-size: 1em;
+  color: rgb(59, 116, 113);
+  margin-top: 9px;
+  /* text-decoration: none; */
+}
+
+#shipText {
+  color: rgb(59, 116, 113);
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#planBtn {
+  padding: 10px;
+  width: 15%;
+  font-size: 1.05em;
+  color: white;
+  background-color: rgb(49, 103, 255);
+  border: 1px solid rgb(49, 103, 255);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#planBtn:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+
+/* Common questions */
+
+#image {
+  text-align: center;
+  margin-left: 55px;
+}
