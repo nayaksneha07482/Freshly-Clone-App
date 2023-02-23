@@ -104,3 +104,341 @@ body {
   transform: translateX(2px) translateY(-2px);
   transition: transform 0.4s;
 }
+
+/* Plans Div */
+
+.mealPlan {
+  height: 711px;
+  text-align: center;
+  padding: 63px 0px 0px;
+  box-sizing: border-box;
+}
+
+#mealHeading {
+  font-size: 2.3em;
+  margin-top: 2px;
+}
+
+.mealPlan > p {
+  font-size: 13.9px;
+  margin-top: -35px;
+  padding: 0px 410px;
+  width: 700px;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+}
+
+#span1 {
+  color: rgb(53, 116, 113);
+  font-weight: bold;
+}
+
+#span2 {
+  font-weight: bold;
+}
+
+.planContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  height: 242px;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 70px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.planContainer > div > img {
+  width: 274px;
+}
+
+.planContainer > div > p {
+  background-color: rgb(133, 229, 198);
+  font-size: 0.85em;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  width: 113px;
+  border-radius: 50px;
+  padding: 3px 0px 1px;
+  position: absolute;
+  top: -6px;
+  left: 8px;
+}
+
+.planContainer > div {
+  position: relative;
+}
+
+.planContainer > div > h4 {
+  color: rgb(53, 116, 113);
+  font-size: 1.7em;
+  margin-top: 12px;
+}
+
+#shipText {
+  color: rgb(53, 116, 113);
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+
+#planBtn {
+  padding: 14px 15px;
+  font-size: 1.1em;
+  color: white;
+  background-color: rgb(49, 103, 255);
+  border: 1px solid rgb(49, 103, 255);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+#planBtn:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+
+/* Menu Div */
+
+.menuDiv {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#textDiv {
+  width: 60%;
+  padding: 40px 0px;
+  margin: auto;
+}
+
+#textDiv > h1 {
+  font-size: 3em;
+  color: rgb(51, 51, 51);
+}
+
+#textDiv > p {
+  font-size: 0.8em;
+  color: rgb(51, 51, 51);
+  letter-spacing: 0.3px;
+  font-weight: 540;
+  line-height: 1.5em;
+  margin-bottom: 35px;
+}
+
+#foodType {
+  cursor: pointer;
+}
+
+#options > label {
+  color: rgb(140, 140, 140);
+}
+
+#options > select {
+  height: 22px;
+  margin-left: 5px;
+}
+
+#cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  padding: 20px 70px 45px;
+}
+
+#box {
+  box-sizing: border-box;
+  height: 350px;
+  cursor: pointer;
+}
+
+#cardImage {
+  width: 100%;
+  height: 282px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+#cardImage:hover {
+  transform: scale(1.09);
+  transition: transform 0.5s ease-out;
+}
+
+#cardsContainer > div > div {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+#cardHeading {
+  font-size: 0.93em;
+  letter-spacing: 0.3px;
+  margin-top: 5px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+}
+
+#box > p {
+  color: rgb(53, 116, 113);
+  font-size: 0.85em;
+  margin-top: -13px;
+  text-align: left;
+  line-height: 1.4em;
+  letter-spacing: 0.5px;
+}
+
+/* Picture Div */
+
+.pictureDiv {
+  text-align: center;
+  background-color: rgb(255, 253, 247);
+}
+
+#textDiv1 > p {
+  width: 45%;
+  margin: auto;
+  font-size: 0.8em;
+  color: rgb(51, 51, 51);
+  letter-spacing: 0.3px;
+  font-weight: 540;
+  line-height: 1.5em;
+}
+
+#picsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 180px;
+}
+
+#picsContainer > div {
+  width: 230px;
+  height: 314px;
+  padding: 10px;
+}
+
+#picsContainer > div > h2 {
+  color: rgb(51, 51, 51);
+  font-size: 1.2em;
+}
+
+#picsContainer > div > p {
+  color: rgb(51, 51, 51);
+  font-size: 0.85em;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#picsContainer > div > a {
+  color: rgb(49, 103, 255);
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+#picsContainer > div > img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Common Questions */
+
+#picture {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/* FAQ Div  */
+
+.faqDiv {
+  text-align: center;
+  height: 162px;
+  padding-top: 40px;
+}
+
+.faqDiv > h1 {
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+}
+
+.faqDiv > a {
+  color: rgb(49, 103, 255);
+}
+
+/* Footer */
+
+.lastDiv {
+  height: 388px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 64px 213px;
+  justify-content: center;
+  border-top: 1px solid rgb(236, 236, 236);
+}
+
+.lastDiv > div {
+  width: 273px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 0.78em;
+  color: rgb(104, 103, 103);
+}
+
+.lastDiv > div > a {
+  color: rgb(104, 103, 103);
+  text-decoration: none;
+}
+
+.lastDiv > div > p {
+  font-size: 1.2em;
+  color: black;
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+#div1 {
+  padding: 0px 79px;
+}
+
+#div2 {
+  padding: 0px 99px;
+}
+
+#div3 {
+  padding: 0px 95px;
+}
+
+#div4 {
+  padding: 0px 69px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#lastImg {
+  width: 16px;
+  margin-right: 14px;
+}
+
+#blackImg {
+  width: 120px;
+}
+
+/* Help icon starts */
+
+.helpIcon {
+  position: fixed;
+  bottom: 3%;
+  right: 1.6%;
+  width: 42px;
+  border-radius: 50%;
+  height: 42px;
+  box-shadow: rgb(0 0 0 / 10%) -1px 0px 0px, rgb(0 0 0 / 15%) -3px 0px 9px;
+}
+
+.helpIcon > img {
+  border-radius: 50%;
+  width: 100%;
+  cursor: pointer;
+}
