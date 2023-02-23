@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: Favoritfreshly, sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Pre-nav */
+
+.preNav {
+  height: 33px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.leftDiv {
+  width: 100px;
+  padding: 7px 2px;
+  border-bottom: 2px solid rgb(3, 81, 78);
+  margin-right: -8px;
+}
+
+.rightDiv {
+  width: 150px;
+  padding: 7px 2px;
+}
+
+#icon1 {
+  height: 11px;
+}
+
+#icon2 {
+  filter: grayscale(100%);
+}
+
+#icon2:hover {
+  filter: none;
+  transition: filter 0.3s;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 253, 247);
+  z-index: 2;
+}
+
+#navImg {
+  height: 24px;
+  margin-top: -1px;
+  padding-left: 1px;
+}
+
+#navLinks {
+  display: flex;
+  margin-left: -25px;
+}
+
+#navLinkBox {
+  text-decoration: none;
+  padding: 0px 18px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#navLinkBox:hover {
+  color: rgb(49, 103, 255);
+}
+
+#setup {
+  display: flex;
+}
+
+#login {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-right: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+#signUpBtn {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgb(49, 103, 255);
+  padding: 7px 9px;
+  font-size: 1em;
+  margin-top: -8px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+#signUpBtn:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
